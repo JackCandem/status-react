@@ -4,7 +4,7 @@
   {
    ;common
    :members-title                         "Mitglieder"
-   :not-implemented                       "!nicht implementiert"
+   :not-implemented                       "nicht implementiert"
    :chat-name                             "Chatname"
    :notifications-title                   "Benachrichtigungen und Sounds"
    :offline                               "Offline"
@@ -15,15 +15,15 @@
    :switch-users                          "Benutzer wechseln"
 
    ;chat
-   :is-typing                             "gibt ein"
-   :and-you                               "und Sie"
-   :search-chat                           "Chat durchsuchen"
+   :is-typing                             "tippt"
+   :and-you                               "und du"
+   :search-chat                           "Gespräch durchsuchen"
    :members                               {:one   "1 Mitglied"
                                            :other "{{count}} Mitglieder"
                                            :zero  "keine Mitglieder"}
    :members-active                        {:one   "1 Mitglied, 1 aktiv"
                                            :other "{{count}} Mitglieder, {{count}} aktiv"
-                                           :zero  "keine Mitglieder"}
+                                           :zero  "keine Mitglieder aktiv"}
    :active-online                         "Online"
    :active-unknown                        "Unbekannt"
    :available                             "Verfügbar"
@@ -32,13 +32,13 @@
    :suggestions-commands                  "Befehle"
 
    ;sync
-   :sync-in-progress                      "Synchronisiere..."
+   :sync-in-progress                      "synchronisiere..."
    :sync-synced                           "Synchronisiert"
 
    ;messages
-   :status-sending                        "Absenden"
-   :status-pending                        "In Bearbeitung"
-   :status-sent                           "Verschickt"
+   :status-sending                        "sendet"
+   :status-pending                        "in Zustellung"
+   :status-sent                           "Versandt"
    :status-seen-by-everyone               "Von allen gesehen"
    :status-seen                           "Gesehen"
    :status-delivered                      "Zugestellt"
@@ -54,7 +54,7 @@
                                            :other "Stunden"}
    :datetime-day                          {:one   "Tag"
                                            :other "Tage"}
-   :datetime-multiple                     "s"
+   :datetime-multiple                     "mehrere"
    :datetime-ago                          "vor"
    :datetime-yesterday                    "Gestern"
    :datetime-today                        "Heute"
@@ -66,33 +66,33 @@
    :username                              "Benutzername"
    :not-specified                         "Nicht angegeben"
    :public-key                            "Öffentlicher Schlüssel"
-   :phone-number                          "Telefonnumer"
+   :phone-number                          "Telefonnummer"
    :email                                 "E-Mail"
    :profile-no-status                     "Kein Status"
-   :add-to-contacts                       "Zu Kontakte hinzufügen"
-   :error-incorrect-name                  "Bitte wählen Sie einen anderen Namen"
-   :error-incorrect-email                 "Inkorrekte E-Mail"
+   :add-to-contacts                       "Zu Kontakten hinzufügen"
+   :error-incorrect-name                  "Falscher Benutzername"
+   :error-incorrect-email                 "Falsche E-Mail"
 
    ;;make_photo
    :image-source-title                    "Profilfoto"
-   :image-source-make-photo               "Fotografieren"
+   :image-source-make-photo               "Foto machen"
    :image-source-gallery                  "Aus Galerie auswählen"
    :image-source-cancel                   "Abbrechen"
 
    ;sign-up
-   :contacts-syncronized                  "Ihre Kontakte wurden synchronisiert."
-   :confirmation-code                     (str "Danke! Wir haben Ihnen eine Textnachricht mit einem Bestätigungscode "
-                                               "geschickt. Bitte geben Sie den Code ein, damit wir Ihre Telefonnummer verifizieren können.")
+   :contacts-syncronized                  "Deine Kontakte wurden synchronisiert."
+   :confirmation-code                     (str "Danke! Wir haben dir eine Textnachricht mit einem Bestätigungscode "
+                                               "geschickt. Bitte gib den Code ein, damit wir deine Telefonnummer verifizieren können.")
    :incorrect-code                        (str "Tut uns leid, der Code war nicht korrekt, bitte erneut eingeben")
-   :generate-passphrase                   (str "Ich werde eine Passphrase für Sie generieren, damit Sie Ihren"
-                                               "Zugriff wiederherstellen oder sich von einem anderen Gerät aus einloggen können")
-   :phew-here-is-your-passphrase          "*Puh* das war schwer, hier ist Ihr Passphrase, *bitte aufschreiben und sicher aufbewahren! *Sie benötigen dies, um Ihren Account wiederherzustellen."
-   :here-is-your-passphrase               "Hier ist Ihr Passphrase, *bitte aufschreiben und sicher verwahren!*Sie benötigen dies, um Ihren Account wiederherzustellen."
-   :written-down                          "Stellen Sie sicher, dass Sie es sicher aufgeschrieben haben"
-   :phone-number-required                 "Tippen Sie hier, um Ihre Telefonnummer einzugeben & ich werde Ihre Freunde finden"
-   :intro-status                          "Chatten Sie mit mir, um Ihren Account einzurichten und Ihre Einstellungen zu ändern!"
-   :intro-message1                        "Willkommen beim Status.\nTippen Sie auf diese Nachricht, um Ihr Passwort einzurichten und loszulegen!"
-   :account-generation-message            "Eine Sekunde, ich muss wahnsinnig schwierige Berechnungen durchführen, um Ihr Konto zu generieren!"
+   :generate-passphrase                   (str "Ich werde eine Passphrase für dich generieren, damit du deinen"
+                                               "Zugriff wiederherstellen oder dich von einem anderen Gerät aus einloggen kannst")
+   :phew-here-is-your-passphrase          "*Puh*, hier ist dein Passphrase. *Bitte aufschreiben und sicher aufbewahren! *Du benötigst diesen, um deinen Account wiederherzustellen."
+   :here-is-your-passphrase               "Hier ist deine Passphrase, *bitte aufschreiben und sicher verwahren!* Du benötigst diesen, um deinen Account wiederherzustellen."
+   :written-down                          "Stell bitte sicher, dass du die Passphrase es an einem sicheren Ort notiert hast"
+   :phone-number-required                 "Tipp hier, um deine Telefonnummer einzugeben"
+   :intro-status                          "Chatte mit mir, um deinen Account einzurichten und deine Einstellungen zu ändern!"
+   :intro-message1                        "Willkommen beim Status.\nTippe auf diese Nachricht, um dein Passwort einzurichten und loszulegen!"
+   :account-generation-message            "Eine Sekunde bitte, ich bin dabei dein Konto zu generieren!"
 
    ;chats
    :chats                                 "Chats"
@@ -113,11 +113,11 @@
    ;contacts
    :contacts                              "Kontakte"
    :new-contact                           "Neuer Kontakt"
-   :show-all                              "ALLE ANZEIGEN"
+   :show-all                              "Alle anzeigen"
    :contacts-group-dapps                  "ÐApps"
    :contacts-group-people                 "Leute"
-   :contacts-group-new-chat               "Neuen Chat beginnen"
-   :no-contacts                           "Noch keine Kontakte"
+   :contacts-group-new-chat               "Neue Chats"
+   :no-contacts                           "Keine Kontakte vorhanden"
    :show-qr                               "QR-Code anzeigen"
 
    ;group-settings
@@ -141,17 +141,17 @@
    :phone-request-text                    "Telefonnummer anfragen"
    :confirmation-code-command-description "Bestätitungscode senden"
    :confirmation-code-request-text        "Bestätigungscode anfragen"
-   :send-command-description              "Position senden"
+   :send-command-description              "Befehl senden"
    :request-command-description           "Anfrage senden"
    :keypair-password-command-description  ""
    :help-command-description              "Hilfe"
    :request                               "Anfrage"
-   :chat-send-eth                         "{{amount}} ETH"
-   :chat-send-eth-to                      "{{amount}} ETH an {{chat-name}}"
-   :chat-send-eth-from                    "{{amount}} ETH von {{chat-name}}"
+   :chat-send-eth                         "{{amount}} ETH senden"
+   :chat-send-eth-to                      "{{amount}} ETH an {{chat-name}} senden"
+   :chat-send-eth-from                    "{{amount}} ETH von {{chat-name}} erhalten"
 
    ;new-group
-   :group-chat-name                       "Chatname"
+   :group-chat-name                       "Gruppenname"
    :empty-group-chat-name                 "Bitte geben Sie einen Namen ein"
    :illegal-group-chat-name               "Bitte wählen Sie einen anderen Namen"
 
@@ -160,23 +160,23 @@
    :remove-participants                   "Teilnehmer entfernen"
 
    ;protocol
-   :received-invitation                   "Chateinladung erhalten"
+   :received-invitation                   "Gruppeneinladung erhalten"
    :removed-from-chat                     "Aus dem Gruppenchat entfernt"
    :left                                  "Links"
    :invited                               "Eingeladen"
    :removed                               "Entfernt"
-   :You                                   "Sie"
+   :You                                   "Du"
 
    ;new-contact
    :add-new-contact                       "Neuen Kontakt hinzufügen"
-   :import-qr                             "Import"
+   :import-qr                             "Per QR-Code importieren"
    :scan-qr                               "QR-Code scannen"
    :name                                  "Name"
    :whisper-identity                      "Identität flüstern"
    :address-explication                   "Vielleicht sollte hier ein Text stehen, der erklärt, was eine Adresse ist und wo man danach sucht"
-   :enter-valid-address                   "Bitte geben Sie eine gültige Adresse ein oder scannen Sie einen QR-Code"
+   :enter-valid-address                   "Bitte geben Sie eine gültige Adresse ein"
    :contact-already-added                 "Dieser Kontakt wurde bereits hinzugefügt"
-   :can-not-add-yourself                  "Sie können sich selbst nicht hinzufügen"
+   :can-not-add-yourself                  "Du kannst dich nicht selbst hinzufügen"
    :unknown-address                       "Unbekannte Adresse"
 
 
@@ -189,11 +189,11 @@
 
    ;recover
    :recover-from-passphrase               "Mittels Passphrase wiederherstellen"
-   :recover-explain                       "Bitte geben Sie die Passphrase für Ihr Passwort ein, um den Zugriff wiederherzustellen"
+   :recover-explain                       "Bitte gib die Passphrase für deinen Account ein, um den Zugriff wiederherzustellen"
    :passphrase                            "Passphrase"
    :recover                               "Wiederherstellen"
-   :enter-valid-passphrase                "Bitte geben Sie einen Passphrase ein"
-   :enter-valid-password                  "Bitte geben Sie ein Passwort ein"
+   :enter-valid-passphrase                "Bitte gib eine gültige Passphrase ein"
+   :enter-valid-password                  "Bitte gib ein Passwort ein"
 
    ;accounts
    :recover-access                        "Zugriff wiederherstellen"
@@ -213,7 +213,7 @@
                                            :other "{{count}} Transaktionen bestätigen"
                                            :zero  "Keine Transaktionen"}
    :status                                "Status"
-   :pending-confirmation                  "Bestätigung in Bearbeitung"
+   :pending-confirmation                  "Bestätigung ausstehend"
    :recipient                             "Empfänger"
    :one-more-item                         "Noch ein Objekt"
    :fee                                   "Gebühr"
