@@ -16,7 +16,7 @@
 
    ;chat
    :is-typing                             "tippt"
-   :and-you                               "und du"
+   :and-you                               "und Sie"
    :search-chat                           "Chat durchsuchen"
    :members                               {:one   "1 Mitglied"
                                            :other "{{count}} Mitglieder"
@@ -39,7 +39,7 @@
    :status-sending                        "sendet..."
    :status-pending                        "wird zugestellt"
    :status-sent                           "Verschickt"
-   :status-seen-by-everyone               "Von Allen gesehen"
+   :status-seen-by-everyone               "Von allen gesehen"
    :status-seen                           "Gesehen"
    :status-delivered                      "Zugestellt"
    :status-failed                         "Fehlgeschlagen"
@@ -80,18 +80,18 @@
    :image-source-cancel                   "Abbrechen"
 
    ;sign-up
-   :contacts-syncronized                  "Deine Kontakte wurden synchronisiert."
-   :confirmation-code                     (str "Danke! Wir haben dir eine Textnachricht mit einem Bestätigungscode "
-                                               "geschickt. Bitte gib den Code ein, damit wir deine Telefonnummer verifizieren können.")
-   :incorrect-code                        (str "Tut uns leid, der Code war nicht korrekt, bitte erneut eingeben")
-   :generate-passphrase                   (str "Ich werde eine Passphrase für dich generieren, damit du deinen Zugriff wiederherstellen oder dich von einem anderen Gerät aus einloggen kannst")
-   :phew-here-is-your-passphrase          "*Puh* So das wars, hier ist deine Passphrase, *bitte schreib sie auf und verwahre sie sicher! *Du benötigen diese, um deinen Account wiederherzustellen."
-   :here-is-your-passphrase               "Hier ist deine Passphrase, *Bitte aufschreiben und sicher verwahren!*Du benötigst diese, um deinen Account wiederherzustellen."
-   :written-down                          "Stell sicher, dass du sie sicher aufgeschrieben hast"
-   :phone-number-required                 "Tippe hier, um deine Telefonnummer einzugeben"
-   :intro-status                          "Chatte mit mir, um deinen Account einzurichten und deine Einstellungen zu ändern!"
-   :intro-message1                        "Willkommen beim Status.\nTippe bitte auf diese Nachricht, um dein Passwort einzurichten und loszulegen!"
-   :account-generation-message            "Eine Sekunde, ich generiere gerade dein Konto!"
+   :contacts-syncronized                  "Ihre Kontakte wurden synchronisiert."
+   :confirmation-code                     (str "Danke! Wir haben Ihnen eine Textnachricht mit einem Bestätigungscode "
+                                               "geschickt. Bitte geben Sie den Code ein, damit wir Ihre Telefonnummer verifizieren können.")
+   :incorrect-code                        (str "Tut uns leid, der Code war nicht korrekt, bitte geben Sie ihn eingeben")
+   :generate-passphrase                   (str "Ich werde eine Passphrase für Sie generieren, damit Sie Ihren Zugriff wiederherstellen oder dich von einem anderen Gerät aus einloggen kannst")
+   :phew-here-is-your-passphrase          "Hier ist Ihre Passphrase, *bitte schreiben Sie die auf und verwahre Sie sie sicher! *Sie benötigen diese, um Ihren Account wiederherzustellen."
+   :here-is-your-passphrase               "Hier ist Ihre Passphrase, *Bitte schreiben Sie sie auf und verwahren sie sicher!*Sie benötigen diese, um Ihren Account wiederherzustellen."
+   :written-down                          "Bitte stellen Sie sicher, dass Sie sie sicher aufgeschrieben haben"
+   :phone-number-required                 "Tippen Sie bitte hier, um Ihre Telefonnummer einzugeben"
+   :intro-status                          "Chatten Sie mit mir, um Ihren Account einzurichten und Ihre Einstellungen zu ändern!"
+   :intro-message1                        "Willkommen bei Status.\nTippen Sie bitte auf diese Nachricht, um Ihr Passwort einzurichten und loszulegen!"
+   :account-generation-message            "Eine Sekunde, ich generiere gerade Ihr Konto!"
 
    ;chats
    :chats                                 "Chats"
@@ -175,7 +175,7 @@
    :address-explication                   "Deine Adresse findest du in deinem Benutzerprofil"
    :enter-valid-address                   "Bitte geben Sie eine gültige Adresse ein oder scannen Sie einen QR-Code"
    :contact-already-added                 "Dieser Kontakt wurde bereits hinzugefügt"
-   :can-not-add-yourself                  "Du kannst dich nicht selbst hinzufügen"
+   :can-not-add-yourself                  "Sie können sich nicht selbst hinzufügen"
    :unknown-address                       "Unbekannte Adresse"
 
 
@@ -188,7 +188,7 @@
 
    ;recover
    :recover-from-passphrase               "Mittels Passphrase wiederherstellen"
-   :recover-explain                       "Bitte gib die Passphrase für deinen Account ein, um den Zugriff wiederherzustellen"
+   :recover-explain                       "Bitte geben Sie die Passphrase für Ihren Account ein, um den Zugriff wiederherzustellen"
    :passphrase                            "Passphrase"
    :recover                               "Wiederherstellen"
    :enter-valid-passphrase                "Bitte geben Sie eine gültige Passphrase ein"
@@ -219,4 +219,4 @@
    :value                                 "Wert"
 
    ;:webview
-   :web-view-error                        "Ups, Fehler"})
+   :web-view-error                        "Fehler in der Web Anzeige"})
